@@ -3,10 +3,17 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>me.ilcb.design-patterns</groupId>
     <artifactId>adapter</artifactId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>adapter</name>
     <url>http://maven.apache.org</url>
+
+    <parent>
+        <groupId>me.ilcb</groupId>
+        <artifactId>design-patterns</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>

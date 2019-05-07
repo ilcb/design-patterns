@@ -1,4 +1,4 @@
-package me.ilcb.adapter;
+package me.ilcb.adapter.clazz;
 
 /**
  * 需要适配的类

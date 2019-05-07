@@ -1,8 +1,8 @@
 package me.ilcb.adapter;
 
+import me.ilcb.adapter.object.Adapter;
+import me.ilcb.adapter.object.Target;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 
 public class AdapterTest {

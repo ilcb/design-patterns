@@ -1,4 +1,4 @@
-package me.ilcb.adapter;
+package me.ilcb.adapter.object;
 
 /**
  * 客户所期望的接口，可为接口或者抽象类

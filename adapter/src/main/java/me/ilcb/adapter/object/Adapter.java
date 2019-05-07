@@ -1,4 +1,6 @@
-package me.ilcb.adapter;
+package me.ilcb.adapter.object;
+
+import me.ilcb.adapter.clazz.Adaptee;
 
 /**
  *  适配器
