@@ -1,9 +1,8 @@
 package me.ilcb.iterator;
 
 /**
+ * 聚合定义创建相应迭代器对象的接口
  */
 public interface Aggregate {
-    void add(Object obj);
-    void remove(Object obj);
-    Iterator iterator();
+    Iterator createIterator();
 }

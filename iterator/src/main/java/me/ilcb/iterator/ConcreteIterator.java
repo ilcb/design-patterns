@@ -1,30 +1,25 @@
 package me.ilcb.iterator;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 迭代器实现
  */
-public class ConcreteIterator implements Iterator {
-    private List list = new ArrayList();
-    private int cursor = 0;
+public class ConcreteIterator<T> implements Iterator<T> {
+    private List<T> list;
+    private int index = 0;
 
-    public ConcreteIterator(List list) {
+    public ConcreteIterator(List<T> list) {
         this.list = list;
     }
 
-    public boolean hasNext() {
-        if (cursor == list.size()) {
-            return false;
-        }
-        return true;
+    @Override
+    public T next() {
+        return list.get(index++);
     }
 
-    public Object next() {
-        Object obj = null;
-        if (this.hasNext()) {
-            obj = this.list.get(cursor++);
-        }
-        return obj;
+    @Override
+    public boolean hasNext() {
+        return index < list.size();
     }
 }

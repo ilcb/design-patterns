@@ -8,12 +8,12 @@ public class ObserverTest {
     @Test
     public void test() {
         ConcreteSubject subject = new ConcreteSubject();
-        subject.attach(new ConcreteObserver("A", subject));
-        subject.attach(new ConcreteObserver("B", subject));
-        subject.attach(new ConcreteObserver("C", subject));
+        subject.registerObserver(new ConcreteObserver("A", subject));
+        subject.registerObserver(new ConcreteObserver("B", subject));
+        subject.registerObserver(new ConcreteObserver("C", subject));
 
         subject.subjectState = "OMG";
-        subject.giveNotify();
+        subject.notifyObservers();
     }
 
 }
