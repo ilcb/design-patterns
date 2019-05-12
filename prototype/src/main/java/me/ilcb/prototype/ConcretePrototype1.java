@@ -5,21 +5,16 @@ package me.ilcb.prototype;
  */
 public class ConcretePrototype1 implements Prototype {
     private String name;
-    public void setName(String name) {
+
+    public ConcretePrototype1(String name) {
         this.name = name;
     }
 
-    public String getName() {
-        return name;
-    }
-
     public Prototype clone() {
-        ConcretePrototype1 copyConcretePrototype1 = new ConcretePrototype1();
-        copyConcretePrototype1.setName(this.name);
-        return copyConcretePrototype1;
+        return new ConcretePrototype1(name);
     }
 
     public String toString(){
-        return "Now in Prototype1, the name is " + this.getName();
+        return "Now in Prototype1, the name is " + this.name;
     }
 }

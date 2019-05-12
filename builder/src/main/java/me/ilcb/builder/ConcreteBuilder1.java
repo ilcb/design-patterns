@@ -1,6 +1,7 @@
 package me.ilcb.builder;
 
 /**
+ * 具体建造者
  */
 public class ConcreteBuilder1 extends Builder {
     private Product product = new Product();

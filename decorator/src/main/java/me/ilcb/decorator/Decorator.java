@@ -1,6 +1,7 @@
 package me.ilcb.decorator;
 
 /**
+ * 装饰者父类
  */
 public class Decorator extends Component {
     private Component component;
@@ -8,7 +9,6 @@ public class Decorator extends Component {
     public void setComponent(Component compontent){
         this.component = compontent;
     }
-
 
     @Override
     public void operation() {

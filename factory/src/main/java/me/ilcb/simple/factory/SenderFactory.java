@@ -1,5 +1,8 @@
 package me.ilcb.simple.factory;
 
+/**
+ * 工厂角色
+ */
 public class SenderFactory {
     public ISender create(String type) {
         ISender sender = null;

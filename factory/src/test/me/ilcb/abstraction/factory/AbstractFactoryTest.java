@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class FactoryTest {
+public class AbstractFactoryTest {
     @Test
     public void test() {
         IDBFactory factory = new OracleFactory();

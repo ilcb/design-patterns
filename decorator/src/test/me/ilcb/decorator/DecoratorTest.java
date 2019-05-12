@@ -15,5 +15,4 @@ public class DecoratorTest {
         decoratorB.setComponent(decoratorA);
         decoratorB.operation();
     }
-
 }
