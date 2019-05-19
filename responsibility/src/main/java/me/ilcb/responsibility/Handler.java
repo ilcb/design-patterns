@@ -1,7 +1,7 @@
 package me.ilcb.responsibility;
 
 /**
- * Created by Jasper on 2016/5/13.
+ * 定义处理请求的接口，并且实现后继链
  */
 public abstract class Handler {
     protected Handler successor;

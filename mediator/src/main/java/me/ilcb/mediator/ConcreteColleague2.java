@@ -1,6 +1,7 @@
 package me.ilcb.mediator;
 
 /**
+ * 具体同事类
  */
 public class ConcreteColleague2 extends Colleague {
     public ConcreteColleague2(Mediator mediator) {

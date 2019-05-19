@@ -1,6 +1,7 @@
 package me.ilcb.template;
 
 /**
+ * 提供模板骨架
  */
 public abstract class AbstractClass {
     public abstract void primitiveOperation1();

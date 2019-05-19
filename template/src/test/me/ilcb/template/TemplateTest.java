@@ -13,5 +13,4 @@ public class TemplateTest {
         abstractClass = new ConcreteClassB();
         abstractClass.templateMethod();
     }
-
 }

@@ -1,6 +1,7 @@
 package me.ilcb.fecade;
 
 /**
+ * 子系统
  */
 public class SubSystemOne {
     public void methodOne(){

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.0" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="StarUML" exporterVersion="2.0"/>
+	<uml:Model xmi:id="AAAAAAFqoECZgSuay3Y=" xmi:type="uml:Model" name="RootModel">
+		<packagedElement xmi:id="AAAAAAFF+qBWK6M3Z8Y=" name="Model" visibility="public" xmi:type="uml:Model"/>
+		<packagedElement xmi:id="AAAAAAFqoD+vXSkcV2c=" name="JavaReverse" visibility="public" xmi:type="uml:Model">
+			<packagedElement xmi:id="AAAAAAFqoD+vaikdszA=" name="me" visibility="public" xmi:type="uml:Package">
+				<packagedElement xmi:id="AAAAAAFqoD+vaike0Q8=" name="ilcb" visibility="public" xmi:type="uml:Package">
+					<packagedElement xmi:id="AAAAAAFqoD+vaikfM1c=" name="adapter" visibility="public" xmi:type="uml:Package">
+						<packagedElement xmi:id="AAAAAAFqoD+vaikgOrs=" name="clazz" visibility="public" xmi:type="uml:Package">
+							<packagedElement xmi:id="AAAAAAFqoD+vaikhsyo=" name="Adaptee" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+								<xmi:Extension extender="StarUML">
+									<documentation value="%E9%9C%80%E8%A6%81%E9%80%82%E9%85%8D%E7%9A%84%E7%B1%BB"/>
+								</xmi:Extension>
+								<ownedOperation xmi:id="AAAAAAFqoD+vaykioyg=" name="specialRequest" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+									<ownedParameter xmi:id="AAAAAAFqoD+vaykj0uA=" visibility="public" isStatic="false" isLeaf="false" type="void_id" isReadOnly="false" isOrdered="false" isUnique="false" direction="return" xmi:type="uml:Parameter"/>
+								</ownedOperation>
+							</packagedElement>
+							<packagedElement xmi:id="AAAAAAFqoD+vbikkPdc=" name="Adapter" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+								<xmi:Extension extender="StarUML">
+									<documentation value="%E9%80%82%E9%85%8D%E5%99%A8"/>
+								</xmi:Extension>
+								<ownedOperation xmi:id="AAAAAAFqoD+vbiklggg=" name="request" visibility="public" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+									<ownedParameter xmi:id="AAAAAAFqoD+vbikmOnE=" visibility="public" isStatic="false" isLeaf="false" type="void_id" isReadOnly="false" isOrdered="false" isUnique="false" direction="return" xmi:type="uml:Parameter"/>
+								</ownedOperation>
+								<generalization xmi:id="AAAAAAFqoD+vcSku3QM=" visibility="public" xmi:type="uml:Generalization" specific="AAAAAAFqoD+vbikkPdc=" general="AAAAAAFqoD+vaikhsyo="/>
+								<interfaceRealization xmi:id="AAAAAAFqoD+vcSkvcJ0=" visibility="public" xmi:type="uml:InterfaceRealization" implementingClassifier="AAAAAAFqoD+vbikkPdc=" contract="AAAAAAFqoD+vcCkr9Ww="/>
+							</packagedElement>
+							<packagedElement xmi:id="AAAAAAFqoD+vbyknxJQ=" name="Client" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+								<ownedOperation xmi:id="AAAAAAFqoD+vbykosBA=" name="main" visibility="public" isStatic="true" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+									<ownedParameter xmi:id="AAAAAAFqoD+vbykpNUw=" name="args" visibility="public" isStatic="false" isLeaf="false" type="String_id" isReadOnly="false" isOrdered="false" isUnique="false" direction="in" xmi:type="uml:Parameter">
+										<lowerValue xmi:id="AAAAAAFqoECZhCubU88=" xmi:type="uml:LiteralUnlimitedNatural" value="*"/>
+										<upperValue xmi:id="AAAAAAFqoECZhCucijc=" xmi:type="uml:LiteralUnlimitedNatural" value="*"/>
+									</ownedParameter>
+									<ownedParameter xmi:id="AAAAAAFqoD+vbykq/lM=" visibility="public" isStatic="false" isLeaf="false" type="void_id" isReadOnly="false" isOrdered="false" isUnique="false" direction="return" xmi:type="uml:Parameter"/>
+								</ownedOperation>
+							</packagedElement>
+							<packagedElement xmi:id="AAAAAAFqoD+vcCkr9Ww=" name="Target" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Interface">
+								<xmi:Extension extender="StarUML">
+									<documentation value="%E5%AE%A2%E6%88%B7%E6%89%80%E6%9C%9F%E6%9C%9B%E7%9A%84%E6%8E%A5%E5%8F%A3%EF%BC%8C%E5%8F%AF%E4%B8%BA%E6%8E%A5%E5%8F%A3%E6%88%96%E8%80%85%E6%8A%BD%E8%B1%A1%E7%B1%BB"/>
+								</xmi:Extension>
+								<ownedOperation xmi:id="AAAAAAFqoD+vcCksO4s=" name="request" visibility="package" isStatic="false" isLeaf="false" concurrency="sequential" isQuery="false" isAbstract="false" xmi:type="uml:Operation">
+									<ownedParameter xmi:id="AAAAAAFqoD+vcCktXM4=" visibility="public" isStatic="false" isLeaf="false" type="void_id" isReadOnly="false" isOrdered="false" isUnique="false" direction="return" xmi:type="uml:Parameter"/>
+								</ownedOperation>
+							</packagedElement>
+						</packagedElement>
+					</packagedElement>
+				</packagedElement>
+			</packagedElement>
+		</packagedElement>
+		<packagedElement xmi:id="void_id" xmi:type="uml:DataType" name="void"/>
+		<packagedElement xmi:id="String_id" xmi:type="uml:DataType" name="String"/>
+	</uml:Model>
+</xmi:XMI>

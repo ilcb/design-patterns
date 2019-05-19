@@ -1,6 +1,7 @@
 package me.ilcb.state.example;
 
 /**
+ * 电梯终止状态
  */
 public class StoppingState extends LiftState {
     public void close() {

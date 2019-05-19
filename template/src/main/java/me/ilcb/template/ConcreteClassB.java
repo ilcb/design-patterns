@@ -1,6 +1,7 @@
 package me.ilcb.template;
 
 /**
+ * 具体模板
  */
 public class ConcreteClassB extends AbstractClass {
     @Override

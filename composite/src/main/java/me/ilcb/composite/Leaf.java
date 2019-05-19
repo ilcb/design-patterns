@@ -1,6 +1,7 @@
 package me.ilcb.composite;
 
 /**
+ * 叶子节点
  */
 public class Leaf extends Component {
     public Leaf(String name) {

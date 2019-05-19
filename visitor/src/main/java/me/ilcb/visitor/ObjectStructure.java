@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 对象结构
  */
 public class ObjectStructure {
     private List<Element> collection;

@@ -1,6 +1,7 @@
 package me.ilcb.state.example;
 
 /**
+ * 电梯运行状态
  */
 public class RunningState extends LiftState {
     @Override

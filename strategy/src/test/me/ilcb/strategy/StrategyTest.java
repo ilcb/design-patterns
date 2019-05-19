@@ -7,10 +7,9 @@ public class StrategyTest {
     public void test() {
         Context context = null;
         context = new Context(new ConcreteStrategyA());
-        context.tellStrategy();
+        context.action();
 
         context =  new Context(new ConcreteStrategyB());
-        context.tellStrategy();
+        context.action();
     }
-
 }

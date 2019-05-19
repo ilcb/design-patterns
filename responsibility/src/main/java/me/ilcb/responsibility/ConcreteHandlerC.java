@@ -1,7 +1,7 @@
 package me.ilcb.responsibility;
 
 /**
- * Created by Jasper on 2016/5/13.
+ * 具体handler
  */
 public class ConcreteHandlerC extends Handler {
 

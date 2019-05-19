@@ -1,6 +1,7 @@
 package me.ilcb.state;
 
 /**
+ * 具体状态
  */
 public class ConcreteStateB extends State {
 

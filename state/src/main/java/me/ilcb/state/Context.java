@@ -1,6 +1,7 @@
 package me.ilcb.state;
 
 /**
+ * Context
  */
 public class Context {
     private State state;

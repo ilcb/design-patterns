@@ -1,6 +1,7 @@
 package me.ilcb.fecade;
 
 /**
+ * 门面
  */
 public class Facade {
     private SubSystemOne subSystemOne;

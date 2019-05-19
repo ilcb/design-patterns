@@ -11,5 +11,4 @@ public class FacadeTest {
         facade.methodA();
         facade.methodB();
     }
-
 }

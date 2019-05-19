@@ -1,6 +1,7 @@
 package me.ilcb.strategy;
 
 /**
+ * Context
  */
 public class Context {
     private Strategy strategy;
@@ -9,7 +10,7 @@ public class Context {
         this.strategy = strategy;
     }
 
-    public void tellStrategy(){
-        strategy.tellStrategy();
+    public void action(){
+        strategy.behavior();
     }
 }

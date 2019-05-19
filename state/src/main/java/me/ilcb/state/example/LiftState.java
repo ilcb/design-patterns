@@ -1,6 +1,7 @@
 package me.ilcb.state.example;
 
 /**
+ * 电梯状态
  */
 public abstract class LiftState {
     protected Context context;
