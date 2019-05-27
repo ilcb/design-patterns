@@ -8,10 +8,10 @@ public class WebsiteTest {
     @Test
     public void test() {
         WebsiteFactory factory = new WebsiteFactory();
-        Website website1 = new ConcreteWebsite("产品展示");
+        Website website1 = factory.getWebsite("Blog");
         website1.use(new User("A"));
 
-        Website website2 = new ConcreteWebsite("博客");
+        Website website2 = factory.getWebsite("Blog");
         website2.use(new User("B"));
     }
 }

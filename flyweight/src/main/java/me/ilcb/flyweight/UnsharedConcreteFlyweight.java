@@ -1,6 +1,7 @@
 package me.ilcb.flyweight;
 
 /**
+ * 具体非享元
  */
 public class UnsharedConcreteFlyweight extends Flyweight {
     public void operation(int externsicState){

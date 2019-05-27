@@ -1,6 +1,7 @@
 package me.ilcb.flyweight.example;
 
 /**
+ * 用户
  */
 public class User {
     public String name;

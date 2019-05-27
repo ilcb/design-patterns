@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * 享元工厂
  */
 public class WebsiteFactory {
     private Map<String, Website> websiteMap = new HashMap<String, Website>();

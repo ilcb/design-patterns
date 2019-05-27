@@ -14,7 +14,7 @@ public class FlyweightTest {
         flyweight1.operation(--externsicState);
 
         Flyweight flyweight2 = factory.getFlyweight("Y");
-        flyweight2.operation(--externsicState);;
+        flyweight2.operation(--externsicState);
 
         Flyweight flyweight3 = factory.getFlyweight("Z");
         flyweight3.operation(--externsicState);
@@ -22,5 +22,4 @@ public class FlyweightTest {
         UnsharedConcreteFlyweight unsharedConcreteFlyweight = new UnsharedConcreteFlyweight();
         unsharedConcreteFlyweight.operation(--externsicState);
     }
-
 }
