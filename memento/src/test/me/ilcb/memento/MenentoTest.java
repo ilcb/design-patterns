@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class MenentoTestTest {
+public class MenentoTest {
     @Test
     public void test() {
         Originator originator = new Originator();
