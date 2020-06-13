@@ -1,3 +1,21 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [概述](#%E6%A6%82%E8%BF%B0)
+- [适用性](#%E9%80%82%E7%94%A8%E6%80%A7)
+- [结构](#%E7%BB%93%E6%9E%84)
+  - [抽象类(Abstraction)](#%E6%8A%BD%E8%B1%A1%E7%B1%BBabstraction)
+  - [扩充抽象类(RefinedAbstraction)](#%E6%89%A9%E5%85%85%E6%8A%BD%E8%B1%A1%E7%B1%BBrefinedabstraction)
+  - [实现类接口(Implementor)](#%E5%AE%9E%E7%8E%B0%E7%B1%BB%E6%8E%A5%E5%8F%A3implementor)
+  - [具体实现类(ConcreteImplementor)](#%E5%85%B7%E4%BD%93%E5%AE%9E%E7%8E%B0%E7%B1%BBconcreteimplementor)
+- [实现](#%E5%AE%9E%E7%8E%B0)
+- [总结](#%E6%80%BB%E7%BB%93)
+  - [优点](#%E4%BC%98%E7%82%B9)
+  - [缺点](#%E7%BC%BA%E7%82%B9)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ---
 layout: _post
 title: 设计模式-桥接模式

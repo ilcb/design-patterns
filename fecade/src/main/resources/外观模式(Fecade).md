@@ -16,9 +16,9 @@ categories:
 
 ![fecade](fecade.png)
 
-### 外观（Facade）角色：
+### 外观（Facade）角色
 为多个子系统对外提供一个共同的接口。
-### 子系统（Sub System）角色：
+### 子系统（Sub System）角色
 实现系统的部分功能，客户可以通过外观角色访问它。
 
 ## 实现

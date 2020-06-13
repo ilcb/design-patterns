@@ -26,19 +26,19 @@ categories:
 
 ![mediator](mediator.png)
 
-### 抽象中介者(Mediator):
+### 抽象中介者(Mediator)
 
 中介者定义一个接口用于与各同事（Colleague）对象通信。
 
-### 具体中介者(ConcreteMediator):
+### 具体中介者(ConcreteMediator)
 
 具体中介者通过协调各同事对象实现协作行为。了解并维护它的各个同事。
 
-### 抽象同事类(Colleague):
+### 抽象同事类(Colleague)
 
 定义同事类接口,定义各同事的公有方法.
 
-### 具体同事类(ConcreteColleague):
+### 具体同事类(ConcreteColleague)
 
 实现抽象同事类中的方法。每一个同时类需要知道中介者对象；每个具体同事类只需要了解自己的行为，而不需要了解其他同事类的情况。每一个同事对象在需与其他的同事通信的时候，与它的中介者通信。
 
@@ -152,10 +152,10 @@ ConcreteColleague1得到消息:Hi
 ```
 
 ## 总结
-### 优点：
-+ 减少了子类生成:Mediator将原本分布于多个对象间的行为集中在一起。改变这些行为只需生成Mediator的子类即可。这样各个Colleague类可被重用。
-+ 简化各同事类的设计和实现:它将各同事类Colleague解耦，Mediator有利于各Colleague间的松耦合.你可以独立的改变和复用各Colleague类和Mediator类。
-+ 它简化了对象协议:用Mediator和各Colleague间的一对多的交互来代替多对多的交互。一对多的关系更易于理解、维护和扩展。
+### 优点
++ 减少了子类生成:Mediator 将原本分布于多个对象间的行为集中在一起。改变这些行为只需生成 Mediator 的子类即可。这样各个 Colleague 类可被重用。
++ 简化各同事类的设计和实现:它将各同事类 Colleague 解耦，Mediator 有利于各 Colleague 间的松耦合.你可以独立的改变和复用各 Colleague 类和 Mediator 类。
++ 它简化了对象协议:用 Mediator 和各 Colleague 间的一对多的交互来代替多对多的交互。一对多的关系更易于理解、维护和扩展。
 + 它对对象如何协作进行了抽象将中介作为一个独立的概念并将其封装在一个对象中，使你将注意力从对象各自本身的行为转移到它们之间的交互上来。这有助于弄清楚一个系统中的对象是如何交互的。
 + 它使控制集中化中介者模式将交互的复杂性变为中介者的复杂性。
 
